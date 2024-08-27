@@ -16,6 +16,9 @@ class AppTheme{
      contentPadding: EdgeInsets.all(27.0),
      enabledBorder: _border(),
      focusedBorder: _border(AppPallete.gradient2)
+   ),
+   appBarTheme: AppBarTheme(
+     backgroundColor: AppPallete.backgroundColor
    )
  );
 }
